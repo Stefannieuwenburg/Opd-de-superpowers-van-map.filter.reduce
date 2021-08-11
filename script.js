@@ -1,4 +1,4 @@
- // Opd A
+ // Opd A .map.filter.reduce
  
 
 const superheroes =
@@ -109,3 +109,35 @@ const superheroes =
         "weight": "unknown"
         }
         ]
+/*
+//Maak een array van alle "lichte" superhelden (< 190 pounds)
+
+const lightWeights = superheroes.filter(weight => { 
+    return weight.weight < 190;
+});
+
+ console.log(lightWeights);
+
+//Maak een array van alle superhelden namen
+
+const heroName = superheroes.map(hero =>{
+    return hero.name;
+});
+console.log(heroName);
+
+//Maak een array met de namen van de superhelden die 200 pounds wegen
+
+const havyHero = superheroes.filter(weight =>{
+    return weight.weight==200;
+});
+console.log(havyHero);
+
+
+
+const heavyHeroNamesChained = superheroes
+  .filter(hero => hero.weight == 200)
+  .map(hero => hero.name);
+
+console.log(heavyHeroNamesChained);
+*/
+
