@@ -1,12 +1,7 @@
  // Opd A
- heroes.map(hero => {
-    return [x]
-    }).filter(hero => {
-            return [X]
-    }
+ 
 
-//Opd B
-
+const superheroes =
     [
         {
         "name": "Batman",
