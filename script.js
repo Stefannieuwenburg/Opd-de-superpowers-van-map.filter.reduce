@@ -139,5 +139,23 @@ const heavyHeroNamesChained = superheroes
   .map(hero => hero.name);
 
 console.log(heavyHeroNamesChained);
+
+//Maak een array met first appearances.
+
+const firstAppearances =superheroes.map(hero => hero.first_appearance);
+console.log("first Appearance",firstAppearances);
+
+const marvelComicsHeroes = superheroes.filter(hero => hero.publisher === "Marvel Comics");
+console.log("Marvel Comics Heroes",marvelComicsHeroes);
+
+
+const dcComicsHeroes = superheroes.filter(hero => hero.publisher === "DC Comics");
+console.log("DC Comics Heroes",dcComicsHeroes);
 */
+
+
+
+
+
+
 
